@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="divblack" id="ColorA" style="background-color: blue; height: 200px; width: 200px;"></div>
+    <div class="divblack" id="ColorB" style="background-color: red; height: 200px; width: 200px;"></div>
+    <div class="divblack" id="ColorC" style="background-color: green; height: 200px; width: 200px;"></div>
+    <div class="divblack" id="ColorD" style="background-color: yellow; height: 200px; width: 200px;"></div>
+
+    <script>
+
+const ele = document.getElementById("ColorA");
+const ele1 = document.getElementById("ColorB");
+const ele2 = document.getElementById("ColorC");
+const ele3 = document.getElementById("ColorD");
+
+
+ele.addEventListener("click", function() {
+    ele.style.backgroundColor = 'black';
+    });
+ele1.addEventListener("click", function() {
+    ele1.style.backgroundColor = 'black';
+    });
+ele2.addEventListener("click", function() {
+    ele2.style.backgroundColor = 'black';
+    });
+ele3.addEventListener("click", function() {
+    ele3.style.backgroundColor = 'black';
+    });
+    
+    </script>
+</body>
+</html>
